@@ -7,11 +7,11 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
   background:
-    radial-gradient(circle at top left, rgba(15, 23, 42, 0.05), transparent 28%),
-    radial-gradient(circle at top right, rgba(120, 113, 108, 0.08), transparent 24%),
-    linear-gradient(180deg, #f8fafc 0%, #f1f5f9 52%, #eef2f7 100%);
+    radial-gradient(circle at top left, rgba(37, 99, 235, 0.05), transparent 28%),
+    radial-gradient(circle at top right, rgba(59, 130, 246, 0.08), transparent 24%),
+    linear-gradient(180deg, #f8faff 0%, #f0f7ff 52%, #e8f1ff 100%);
   background-attachment: fixed;
-  color: #0f172a;
+  color: #1e293b;
   min-height: 100vh;
 }
 
@@ -133,9 +133,9 @@ body {
 }
 
 .sidebar-link.is-active {
-  background: linear-gradient(135deg, #0f172a 0%, #334155 100%);
+  background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
   color: white;
-  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
 }
 
 .sidebar-link__icon {
@@ -195,11 +195,11 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #111827 0%, #334155 100%);
+  background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
   color: white;
   font-size: 20px;
   font-weight: 800;
-  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.18);
+  box-shadow: 0 10px 24px rgba(37, 99, 235, 0.25);
 }
 
 .app-brand__tagline {
@@ -225,10 +225,10 @@ body {
 
 .nav-link:hover,
 .nav-link.is-active {
-  background: linear-gradient(135deg, #111827 0%, #334155 100%);
+  background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
   color: white;
   transform: translateY(-2px);
-  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.16);
+  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.25);
 }
 
 .container {
@@ -254,12 +254,12 @@ body {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #111827 0%, #334155 100%);
+  background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
   color: white;
 }
 
 .btn-primary:hover {
-  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.16);
+  box-shadow: 0 10px 20px rgba(37, 99, 235, 0.25);
 }
 
 .btn-success {
@@ -350,9 +350,9 @@ body {
   align-items: center;
   justify-content: center;
   background:
-    radial-gradient(circle at top left, rgba(15, 23, 42, 0.05), transparent 28%),
-    radial-gradient(circle at top right, rgba(120, 113, 108, 0.08), transparent 24%),
-    linear-gradient(180deg, #f8fafc 0%, #f1f5f9 52%, #eef2f7 100%);
+    radial-gradient(circle at top left, rgba(37, 99, 235, 0.05), transparent 28%),
+    radial-gradient(circle at top right, rgba(59, 130, 246, 0.08), transparent 24%),
+    linear-gradient(180deg, #f8faff 0%, #f0f7ff 52%, #e8f1ff 100%);
   padding: 20px;
 }
 
@@ -523,9 +523,9 @@ body {
 .form-group textarea:focus,
 .form-group select:focus {
   outline: none;
-  border-color: #475569;
+  border-color: #2563eb;
   background: white;
-  box-shadow: 0 0 0 4px rgba(71, 85, 105, 0.12);
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
 }
 
 .form-group textarea {
@@ -642,7 +642,7 @@ body {
 .stat-card h3 {
   font-size: 48px;
   font-weight: 800;
-  background: linear-gradient(135deg, #111827 0%, #334155 100%);
+  background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -706,8 +706,8 @@ body {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #111827 0%, #475569 100%);
-  box-shadow: 0 4px 10px rgba(15, 23, 42, 0.14);
+  background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
+  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.25);
   z-index: 1;
 }
 
@@ -807,9 +807,9 @@ body {
 
 .version-selector select:focus {
   outline: none;
-  border-color: #3b82f6;
+  border-color: #2563eb;
   background: white;
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
 }
 
 .no-file {
@@ -844,9 +844,9 @@ body {
 
 .filters select:focus {
   outline: none;
-  border-color: #3b82f6;
+  border-color: #2563eb;
   background: white;
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
 }
 
 .page-shell {
@@ -883,9 +883,9 @@ body {
   gap: 20px;
   padding: 28px;
   border-radius: 24px;
-  background: linear-gradient(135deg, #111827 0%, #1f2937 60%, #334155 100%);
+  background: linear-gradient(135deg, #2563eb 0%, #3b82f6 60%, #60a5fa 100%);
   color: white;
-  box-shadow: 0 18px 36px rgba(15, 23, 42, 0.18);
+  box-shadow: 0 18px 36px rgba(37, 99, 235, 0.25);
 }
 
 .page-hero h2 {
@@ -1053,9 +1053,9 @@ body {
 }
 
 .workflow-step.current {
-  background: linear-gradient(135deg, #111827 0%, #374151 100%);
-  border-color: #111827;
-  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.2);
+  background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
+  border-color: #2563eb;
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.25);
 }
 
 .workflow-step.current strong,
@@ -1373,8 +1373,8 @@ body {
 .annotation-textarea:focus,
 .upload-input:focus {
   outline: none;
-  border-color: #475569;
-  box-shadow: 0 0 0 4px rgba(71, 85, 105, 0.12);
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
 }
 
 .review-preview-stack,
@@ -1462,8 +1462,8 @@ body {
   flex-wrap: wrap;
   padding: 18px 20px;
   border-radius: 22px;
-  background: linear-gradient(135deg, #111827 0%, #374151 100%);
-  box-shadow: 0 18px 38px rgba(15, 23, 42, 0.22);
+  background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
+  box-shadow: 0 18px 38px rgba(37, 99, 235, 0.25);
 }
 
 .annotation-toolbar__group {
