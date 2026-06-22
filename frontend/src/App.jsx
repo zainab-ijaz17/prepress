@@ -139,22 +139,17 @@ function AppContent() {
 
       <div className="main-content">
         <Routes>
-          <Route path="/login" element={user ? <Navigate to="/" replace /> : <LoginPage />} />
-          <Route path="/" element={user ? <Dashboard /> : <Navigate to="/login" replace />} />
-          <Route path="/jobs" element={user ? <JobList /> : <Navigate to="/login" replace />} />
-          <Route
-            path="/jobs/create"
-            element={
-              user ? (user.role === 'customer' ? <Navigate to="/jobs" replace /> : <CreateJob />) : <Navigate to="/login" replace />
-            }
-          />
-          <Route path="/jobs/:id" element={user ? <JobDetail /> : <Navigate to="/login" replace />} />
-          <Route path="/leads/create" element={user ? <CreateLead /> : <Navigate to="/login" replace />} />
-          <Route path="/drfs" element={user ? <DRFList /> : <Navigate to="/login" replace />} />
-          <Route path="/drfs/create" element={user ? <CreateDRF /> : <Navigate to="/login" replace />} />
-          <Route path="/drfs/:id" element={user ? <DRFDetail /> : <Navigate to="/login" replace />} />
-          <Route path="/mrf" element={user ? <MRFList /> : <Navigate to="/login" replace />} />
-          <Route path="*" element={<Navigate to={user ? "/" : "/login"} replace />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/jobs" element={<JobList />} />
+          <Route path="/jobs/create" element={user?.role === 'customer' ? <Navigate to="/jobs" replace /> : <CreateJob />} />
+          <Route path="/jobs/:id" element={<JobDetail />} />
+          <Route path="/leads/create" element={<CreateLead />} />
+          <Route path="/drfs" element={<DRFList />} />
+          <Route path="/drfs/create" element={<CreateDRF />} />
+          <Route path="/drfs/:id" element={<DRFDetail />} />
+          <Route path="/mrf" element={<MRFList />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </div>
     </>
